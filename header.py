@@ -8,7 +8,7 @@ class header(Scene):
     heittpr.save_state()
 
     self.add(heittpr)
-    self.wait(1.5)
+    self.wait(3)
     self.play(Transform(heittpr, heitor, run_time=1.5))
-    self.wait(1.5)
+    self.wait(3)
     self.play(Restore(heittpr, run_time=1.5))
